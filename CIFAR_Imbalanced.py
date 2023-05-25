@@ -110,8 +110,8 @@ if __name__ == "__main__":
         relations[i]=list(relations[i])
     
     del i, y_fine
-    #print(relations)
-    #print(np.array(relations).shape)
+    print(relations)
+    print(np.array(relations).shape)
     
     fine_classes_in_use = [[relations[j][i%5] for j in private_classes] 
                            for i in range(N_parties)]
